@@ -496,3 +496,4 @@ mod tests {
     }
 }
 // ci-measure rerun B1 2026-10-21T04:56:01.647478+00:00
+// ci-measure rerun B2 2026-10-21T05:56:50.707398+00:00
