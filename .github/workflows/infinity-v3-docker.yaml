@@ -92,7 +92,7 @@ jobs:
         with:
           context: ./libs/infinity-v3
           file: ${{ matrix.dockerfile }}
-          push: ${{ github.event_name != 'pull_request' }}
+          push: false  # fork-only measurement harness: never publish from agarg21/infinity
           load: true
           platforms: linux/amd64
           build-args: |
